@@ -9,6 +9,7 @@ import java.util.*
  * @author luiz.bonfioli
  */
 class User : ValueObject<UserEntity> {
+
     var id: UUID? = null
 
     override var entity: UserEntity
